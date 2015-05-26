@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: vehicles
+Version: 0.1.0a1
+Summary: Vehicles registry sample project
+Home-page: UNKNOWN
+Author: marika
+Author-email: marika@savannahinformatics.com
+License: Proprietary
+Description: Sample Vehicles Registry project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 2.7

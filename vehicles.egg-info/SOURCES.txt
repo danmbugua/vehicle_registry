@@ -1,0 +1,14 @@
+README.rst
+setup.py
+vehicles/__init__.py
+vehicles/models.py
+vehicles/serializers.py
+vehicles/urls.py
+vehicles/views.py
+vehicles.egg-info/PKG-INFO
+vehicles.egg-info/SOURCES.txt
+vehicles.egg-info/dependency_links.txt
+vehicles.egg-info/requires.txt
+vehicles.egg-info/top_level.txt
+vehicles/migrations/0001_initial.py
+vehicles/migrations/__init__.py

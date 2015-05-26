@@ -1,0 +1,8 @@
+[run]
+branch=True
+source=vehicles
+omit=
+    *migrations*
+
+[report]
+show_missing=True
