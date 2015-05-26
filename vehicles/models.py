@@ -3,6 +3,11 @@ from django.core.exceptions import ValidationError
 from django.utils import timezone
 
 
+NON_ALLOWED_ID_NUMBERS = [
+    '12345', '123456'
+]
+
+
 class Owner(models.Model):
     id_number = models.CharField(max_length=10, unique=True)
     first_name = models.CharField(max_length=40)
@@ -10,7 +15,7 @@ class Owner(models.Model):
     created = models.DateField(default=timezone.now)
 
     def validate_id_number(self):
-        if self.id_number == '12345':
+        if self.id_number in NON_ALLOWED_ID_NUMBERS:
             msg = "Person is not allowed to own a car in Kenya"
             raise ValidationError(msg)
 
